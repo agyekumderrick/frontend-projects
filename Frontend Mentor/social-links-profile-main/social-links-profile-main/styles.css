@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container{
+    width: 30%;;
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    padding: 25px;
+    margin-top: 1%;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    /* margin: 5% 0 10% 30%; */
+    border-radius: 50%;
+}
+
+h2{
+    font-size:32px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 5%;
+    text-align: center;
+}
+
+span{
+    display: block;
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    margin: 0.5rem 0 1rem;
+}
+
+p{
+    color: hsl(0, 0%, 100%);
+    margin-left: 50px;
+}
+
+ul{
+    display: grid;
+    margin-top: 10px;
+    list-style-type: none;
+    gap: 6px;
+}
+
+
+ul li button{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+a{
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin: auto 40%;
+    padding: 5px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    width: 100%;
+}
+
+button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    /* width: 100%; */
+}
+a:active{
+    background-color: hsl(75, 94%, 57%);
+    width: 50%;
+    color: hsl(0, 0%, 20%);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
